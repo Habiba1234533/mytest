@@ -12,6 +12,7 @@ const answer = await inquirer.prompt([
     choices: ["Addition", "Substraction", "Multiplication", "Division"],
   },
 ]);
+   
 
 //conditional statement
 if (answer.operator === "Addition") {
